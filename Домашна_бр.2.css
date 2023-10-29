@@ -1,0 +1,8 @@
+h3 {font-family: Georgia, cursive, sans-serif; color: rgb(121, 181, 138); -webkit-text-stroke: .75px rgb(61, 61, 61); font-size: x-large;}
+a.no {text-decoration: none; color: rgb(142, 0, 0); font-family: 'Courier New', Garamond, 'Times New Roman', sans-serif; font-weight: bold;}
+a:hover {text-decoration: wavy underline; color: rgb(121, 181, 138);}
+select option:checked {background-color: rgb(121, 181, 138);}
+table, th, td {border-width: thin; border-style: solid; border-color: rgb(53, 7, 7);}
+table td {color: rgb(142, 0, 0); font-size: medium; background-color: rgb(255, 249, 236); font-weight: bold;}
+table th {font-size: large; font-weight: bolder; font-style: italic; background-color: rgb(255, 249, 236);}
+td input[type = "submit"]:hover {background-color: rgb(121, 181, 138); font-size: large; font-weight: bold; color: white;}

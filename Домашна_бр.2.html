@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title> Pizza Shop 2.0 </title>
+
+        <link rel = "stylesheet" type = "text/css" href = "Домашна_бр.2.css">
+    </head>
+
+    <body>
+        <h3> Pizza Shop 2.0 delivery - Please enter your information in the table below.</h3>
+        <form method = "get" action = "http://www.google.com">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan = "2"> Pizza Shop 2.0</th>
+                    </tr>
+
+                    <tr>
+                        <th> Full name </th>
+                        <td><input name = "name" type = "text" size = 30 maxlength = "40"> </td>
+                    </tr>
+
+                    <tr>
+                        <th> Pizza </th>
+                        <td>
+                            <p><input name = "pizza" type = "checkbox" value = "Marinara"><label><a class = "no" href = "https://en.wikipedia.org/wiki/Pizza_marinara">Marinara </a></label></p>
+                            <p><input name = "pizza" type = "checkbox" value = "Margherita"><label><a class = "no" href = "https://en.wikipedia.org/wiki/Pizza_Margherita">Margherita </a></label></p>
+                            <p><input name = "pizza" type = "checkbox" value = "Pizza con Patate"><label>Pizza con Patate </label></p>
+                            <p><input name = "pizza" type = "checkbox" value = "Capricciosa"><label><a class = "no" href = "https://en.wikipedia.org/wiki/Pizza_capricciosa">Capricciosa </a></label></p>
+                            <p><input name = "pizza" type = "checkbox" value = "Prosciutto e Rucola"><label>Prosciutto e Rucola </label></p>
+                            <p><input name = "pizza" type = "checkbox" value = "Calzone"><label><a class = "no" href = "https://en.wikipedia.org/wiki/Calzone">Calzone </a></label></p>
+                            <p><input name = "pizza" type = "checkbox" value = "Quattro formaggi"><label><a class = "no" href = "https://en.wikipedia.org/wiki/Pizza_quattro_formaggi">Quattro formaggi </a></label></p>
+                            <p><input name = "pizza" type = "checkbox" value = "Quattro Stagioni"><label><a class = "no" href = "https://en.wikipedia.org/wiki/Pizza_quattro_stagioni">Quattro Stagioni </a></label></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th> Drinks </th>
+                        <td><select>
+                            <option selected> None </option>
+                            <option> Water </option>
+                            <option> Sparkling water </option>
+                            <option> Lemonade </option>
+                            <option> Fresh squeezed orange juice </option>
+                            <option> Iced Tea - Lemon </option>
+                            <option> Iced Tea - Peach </option>
+                            <option> CocaCola </option>
+                            <option> Fanta </option>
+                        </select></td>
+                    </tr>
+
+                    <tr>
+                        <th> Toppings you can add on your pizza </th>
+                        <td>
+                            <input name = "topping" type = "checkbox" value = "Pancetta"><label>Pancceta </label>
+                            <input name = "topping" type = "checkbox" value = "Pepperoni"><label>Pepperoni </label>
+                            <input name = "topping" type = "checkbox" value = "Pecorino"><label>Pecorino </label>
+                            <input name = "topping" type = "checkbox" value = "Gorgonzola"><label>Gorgonzola </label>
+                            <input name = "topping" type = "checkbox" value = "Mushroom"><label>Mushrooms </label>
+                            <input name = "topping" type = "checkbox" value = "Black olives"><label>Black olives </label>
+                            <input name = "topping" type = "checkbox" value = "Red peppers"><label>Red peppers </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th> Extra cheese </th>
+                        <td>
+                            <input name = "cheese" type = "radio" value = "yes"><label>YES </label>
+                            <input name = "cheese" type = "radio" value = "no"><label>NO </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th> Extra tomato sauce </th>
+                        <td>
+                            <input name = "sauce" type = "radio" value = "yes"><label>YES </label>
+                            <input name = "sauce" type = "radio" value = "no"><label>NO </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th colspan = "2">
+                            <p><strong> Delivery Instructions:</strong></p>
+                            <p><textarea name = "instructions" rows = "5" cols = "70"></textarea></p>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th colspan = "2"> *If the bill is over $50 the delivery is free</th>
+                    </tr>
+
+                    <tr>
+                        <td colspan = "2"> <input type = "submit" value = "Send my order"> </td>
+                    </tr>
+
+                </thead>
+            </table>
+        </form>
+    </body>
+</html>
